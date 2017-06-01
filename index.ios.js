@@ -16,7 +16,7 @@ export default class detoxExample extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+        <Text testID="welcome" style={styles.welcome}>
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
